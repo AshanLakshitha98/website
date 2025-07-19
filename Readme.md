@@ -1,3 +1,2 @@
 Test
-Test2
-Test 3
+Logo added
