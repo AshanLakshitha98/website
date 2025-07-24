@@ -46632,10 +46632,16 @@ a.u-link.u-text-hover-color-var:hover {
   min-height: 164px;
 }
 
+.u-header .u-text-1 {
+  font-weight: 700;
+  font-size: 1.25rem;
+  margin: 19px 0 0 auto;
+}
+
 .u-header .u-image-1 {
   width: 151px;
   height: 151px;
-  margin: 13px auto 0 0;
+  margin: -50px auto 0 0;
 }
 
 .u-header .u-logo-image-1 {
@@ -46643,38 +46649,55 @@ a.u-link.u-text-hover-color-var:hover {
   height: 100%;
 }
 
-.u-header .u-text-1 {
-  font-weight: 700;
-  font-size: 1.25rem;
-  margin: -145px 0 0 auto;
-}
-
 .u-header .u-btn-1 {
   font-weight: 400;
   transition-duration: 0.5s;
   transform: rotate(0deg) scale(1) translateX(0px) translateY(0px);
-  margin: 0 0 24px auto;
+  margin: -101px 0 0 auto;
   padding: 27px 73px 27px 72px;
 }
 @media (max-width: 1199px) {
+  .u-header .u-sheet-1 {
+    min-height: 176px;
+  }
+
   .u-header .u-text-1 {
-    margin-top: -145px;
     margin-right: 0;
+  }
+
+  .u-header .u-image-1 {
+    margin-top: -50px;
   }
 
   .u-header .u-btn-1 {
     --radius: 35px;
+    margin-top: -101px;
   }
 }
-
+@media (max-width: 991px) {
+  .u-header .u-sheet-1 {
+    min-height: 182px;
+  }
+}
 @media (max-width: 767px) {
-  .u-header .u-text-1 {
-    margin-bottom: 60px;
+  .u-header .u-sheet-1 {
+    min-height: 224px;
+  }
+
+  .u-header .u-btn-1 {
+    margin-top: -41px;
   }
 }
 @media (max-width: 575px) {
   .u-header .u-sheet-1 {
-    min-height: 217px;
+    min-height: 218px;
+  }
+
+  .u-header .u-text-1 {
+    width: auto;
+    animation-timing-function: ease-out;
+    margin-top: 88px;
+    margin-right: auto;
   }
 
   .u-header .u-image-1 {
@@ -46685,16 +46708,8 @@ a.u-link.u-text-hover-color-var:hover {
     --animation-custom_in-opacity: 0;
     --animation-custom_in-rotate: 0deg;
     --animation-custom_in-scale: 1;
-    margin-top: 5px;
-    margin-right: 119px;
+    margin-top: -117px;
     margin-left: auto;
-  }
-
-  .u-header .u-text-1 {
-    width: auto;
-    margin-top: -3px;
-    margin-right: 35px;
-    margin-bottom: 0;
   }
 
   .u-header .u-btn-1 {
@@ -46703,8 +46718,8 @@ a.u-link.u-text-hover-color-var:hover {
     --animation-custom_in-opacity: 0;
     --animation-custom_in-rotate: 0deg;
     --animation-custom_in-scale: 1;
-    margin-top: -6px;
-    margin-right: 35px;
+    margin-top: 35px;
+    margin-right: auto;
   }
 }
 .u-header .u-btn-1, .u-header .u-btn-1:before, .u-header .u-btn-1 > .u-container-layout:before {
