@@ -46625,7 +46625,7 @@ a.u-link.u-text-hover-color-var:hover {
 
 /*end-variables sitestylecss*/
  .u-header {
-  background-image: none;
+  background-image: linear-gradient(rgb(229, 229, 229), rgb(229, 229, 229));
 }
 
 .u-header .u-sheet-1 {
@@ -46689,6 +46689,12 @@ a.u-link.u-text-hover-color-var:hover {
   }
 }
 @media (max-width: 575px) {
+   .u-header {
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
   .u-header .u-sheet-1 {
     min-height: 218px;
   }
